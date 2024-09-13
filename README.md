@@ -41,6 +41,14 @@ this series focuses on Machine Learning and Deep Learning, you should have a bac
 
 `Please note that for Deep Learning, I will be using PyTorch exclusively (the reasons for choosing PyTorch over TensorFlow will be explained in future posts)`
 
+
+<p align="center">
+ <h1 align="center">Table of contents
+ </h1>
+</p>
+
+- [Chapter01: RAPIDS and What You Should Know](https://github.com/CisMine/GPU-in-ML-DL/tree/main/Chapter01)
+
 <p align="center">
  <h1 align="center">Resources
  </h1>
