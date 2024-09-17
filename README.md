@@ -48,6 +48,7 @@ this series focuses on Machine Learning and Deep Learning, you should have a bac
 </p>
 
 - [Chapter01: RAPIDS and What You Should Know](https://github.com/CisMine/GPU-in-ML-DL/tree/main/Chapter01)
+- [Chapter02: RAPIDS in handle data](https://github.com/CisMine/GPU-in-ML-DL/tree/main/Chapter02)
 
 <p align="center">
  <h1 align="center">Resources
