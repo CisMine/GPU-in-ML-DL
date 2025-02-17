@@ -70,14 +70,15 @@ From this, we can see that the GPU’s processing speed is extremely powerful an
 
 To use the GPU, our data needs to be copied from the CPU (also known as the host) to the GPU (the device). So, if our dataset is too small, the copy time between the CPU and GPU could become a major bottleneck. Therefore, **we should only consider using the GPU for large datasets.**
 
-```
-What is considered a large dataset?
+
+**What is considered a large dataset?**
+
 Since each computer has different processing speeds, a dataset might be considered large for one person but small for another. Here are two ways to determine if the dataset is large enough to justify using the GPU:
 
-Simply read the CSV file using both CPU and GPU, then compare the results. If there’s a significant difference, use the GPU; otherwise, stick to the CPU.
+- Simply read the CSV file using both CPU and GPU, then compare the results. If there’s a significant difference, use the GPU; otherwise, stick to the CPU.
 
-Analyze the code using NVIDIA’s tools to determine whether using the GPU is appropriate. If you don’t know how to use NVIDIA tools, you can check out at [here](https://github.com/CisMine/Guide-NVIDIA-Tools/)
-```
+- Analyze the code using NVIDIA’s tools to determine whether using the GPU is appropriate. If you don’t know how to use NVIDIA tools, you can check out at [here](https://github.com/CisMine/Guide-NVIDIA-Tools/)
+
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fa448ad0-d204-42e2-81aa-8029ac8bb194" />
