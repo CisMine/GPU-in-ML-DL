@@ -88,9 +88,10 @@ tpot.fit(x_train.to_numpy(), y_train.to_numpy())
 print(tpot.score(x_test.to_numpy(), y_test.to_numpy()))
 ```
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f40f21cb-d42b-474f-9402-15d05847ce6c" />
+</p>
 
-
-![image](https://github.com/user-attachments/assets/f40f21cb-d42b-474f-9402-15d05847ce6c)
 
 
 With just a few simple steps, we've found the best model with optimal hyperparameters and integrated it with cuDF to run on GPU for acceleration. Here’s a brief explanation of the code:
@@ -116,13 +117,16 @@ data_gpu = cudf.read_csv('/kaggle/input/student-score/StudentScore.xls')
 print(data_gpu.info())
 ```
 
-![image](https://github.com/user-attachments/assets/4b9b1e45-9a7b-46ad-baec-7e8c01bd0e6c)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4b9b1e45-9a7b-46ad-baec-7e8c01bd0e6c" />
+</p>
+
 
 You can see that **math score, reading score, writing score** are converted into object
 
 
 <p align="center">
- <h1 align="center">Handle/h1>
+ <h1 align="center">Handle </h1>
 </p>
 
 
@@ -134,9 +138,13 @@ data = cudf.DataFrame.from_pandas(data)
 print(data.info())
 ```
 
-![image](https://github.com/user-attachments/assets/af2eae7f-5abb-48aa-bc57-0dc234750f77)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/af2eae7f-5abb-48aa-bc57-0dc234750f77" />
+</p>
+
 
 2. Point out specific data types when reading file in cuDF
+
 
 ```
 dtype_mapping = {
@@ -150,8 +158,9 @@ data_gpu = cudf.read_csv('/kaggle/input/student-score/StudentScore.xls', dtype=d
 print(data_gpu.info())
 ```
 
-![image](https://github.com/user-attachments/assets/dd048de6-6962-4e6d-ba77-b0578a4c9178)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dd048de6-6962-4e6d-ba77-b0578a4c9178" />
+</p>
 
 
 
