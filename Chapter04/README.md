@@ -1,13 +1,3 @@
-<p align="center">
- <h1 align="center"> </h1>
-</p>
-
-
-<p align="center">
-  <img src="" />
-</p>
-
-
 
 
 <p align="center">
