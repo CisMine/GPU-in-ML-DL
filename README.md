@@ -51,6 +51,7 @@ this series focuses on Machine Learning and Deep Learning, you should have a bac
 - [Chapter02: RAPIDS in handle data](https://github.com/CisMine/GPU-in-ML-DL/tree/main/Chapter02)
 - [Chapter03: cuML for Machine Learning](https://github.com/CisMine/GPU-in-ML-DL/tree/main/Chapter03)
 - [Chapter04: TPOT AutoML + cuDF](https://github.com/CisMine/GPU-in-ML-DL/tree/main/Chapter04)
+- [Chapter05: Parquet format for ML](https://github.com/CisMine/GPU-in-ML-DL/tree/main/Chapter05)
 
 <p align="center">
  <h1 align="center">Resources
