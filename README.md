@@ -61,6 +61,7 @@ this series focuses on Machine Learning and Deep Learning, you should have a bac
 - https://pytorch.org/tutorials/
 - https://developer.nvidia.com/blog/tag/data-analytics-series/
 - https://github.com/rapidsai-community/notebooks-contrib
+- https://lightning.ai/docs
 
 
 
