@@ -30,7 +30,7 @@ However, using float16 also means that numerical precision may drop significantl
 **Mixed Precision** is a technique that combines two data types, float16 and float32, during the training process. In this approach: **Large computational operations** (such as convolution or matrix multiplication) are performed in float16 to reduce memory usage and accelerate computation. Critical components, such as **loss calculation and weight updates**, remain in float32 to maintain model stability and numerical accuracy.
 
 <p align="center">
-  <img src="https://images.viblo.asia/6721274e-9222-4a2c-bfb4-a1d71b8d8385.png" />
+  <img src="https://images.viblo.asia/9117b651-dbdf-4219-ae67-a6b6e84c82df.png"   />
 </p>
 
 
