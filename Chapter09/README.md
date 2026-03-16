@@ -8,6 +8,10 @@ The core idea here is to scale the computation from float32 down to float16, whi
 - Significantly reduce the required memory usage
 - Increase computation speed, especially on GPUs that support Tensor Cores
 
+<p align="center">
+  <img src="https://images.viblo.asia/71776faa-9422-46e9-92b9-f2b04db3b8ea.png" />
+</p>
+
 
 `A simple way to understand this is:`
 
@@ -19,12 +23,16 @@ However, using float16 also means that numerical precision may drop significantl
 
 
 
-
 <p align="center">
  <h1 align="center"> Mixed Precision Part 1 </h1>
 </p>
 
 **Mixed Precision** is a technique that combines two data types, float16 and float32, during the training process. In this approach: **Large computational operations** (such as convolution or matrix multiplication) are performed in float16 to reduce memory usage and accelerate computation. Critical components, such as **loss calculation and weight updates**, remain in float32 to maintain model stability and numerical accuracy.
+
+<p align="center">
+  <img src="https://images.viblo.asia/6721274e-9222-4a2c-bfb4-a1d71b8d8385.png" />
+</p>
+
 
 The training process typically works as follows:
 - The model is initialized (by default in float32).
