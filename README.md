@@ -55,6 +55,7 @@ this series focuses on Machine Learning and Deep Learning, you should have a bac
 - [Chapter06: Pytorch - Pytorch Lightning - Lightning Fabric](https://github.com/CisMine/GPU-in-ML-DL/tree/main/Chapter06)
 - [Chapter07: Optimized Model Initialization](https://github.com/CisMine/GPU-in-ML-DL/tree/main/Chapter07)
 - [Chapter08: how GPU memory works in PyTorch](https://github.com/CisMine/GPU-in-ML-DL/tree/main/Chapter08)
+- [Chapter09: Mixed Precision Part 1](https://github.com/CisMine/GPU-in-ML-DL/tree/main/Chapter09)
 
 <p align="center">
  <h1 align="center">Resources
