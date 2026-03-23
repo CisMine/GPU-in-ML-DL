@@ -56,6 +56,7 @@ this series focuses on Machine Learning and Deep Learning, you should have a bac
 - [Chapter07: Optimized Model Initialization](https://github.com/CisMine/GPU-in-ML-DL/tree/main/Chapter07)
 - [Chapter08: how GPU memory works in PyTorch](https://github.com/CisMine/GPU-in-ML-DL/tree/main/Chapter08)
 - [Chapter09: Mixed Precision Part 1](https://github.com/CisMine/GPU-in-ML-DL/tree/main/Chapter09)
+- [Chapter10: Mixed Precision Part 2](https://github.com/CisMine/GPU-in-ML-DL/tree/main/Chapter10)
 
 <p align="center">
  <h1 align="center">Resources
